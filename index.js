@@ -93,7 +93,7 @@ client.connect(err => {
 
 
 app.get('/', (req, res) => {
-  res.send('Hello Volunteer Network!')
+  res.send('Hello Volunteer Network')
 })
 
 app.listen(process.env.PORT || port)
